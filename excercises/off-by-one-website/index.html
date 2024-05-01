@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Off by 1 Website</title>
+</head>
+<body>
+    <main>
+        <input type="date" title="date" name="" id="dateInput">
+        <button id="displayButton" type="button">Diaplay date</button>
+        <p id="messageParagraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, quae.</p>
+
+    </main>
+    <footer></footer>
+    <script>
+        function init() {
+            const displayButton = document.getElementById("displayButton");
+            displayButton.onclick = displayDate;
+        }
+
+        function displayDate() {
+            let messageParagraph = document.getElementById("messageParagraph")
+            messageParagraph.innerText = "display"
+        } 
+
+        window.onload = init;
+    </script>
+</body>
+</html>
