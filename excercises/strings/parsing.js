@@ -15,3 +15,20 @@ function parseAndDisplayName(name) {
 }
 
 console.log(name);
+
+
+// let name = "Julien Ilboudo";
+// let positionOfSpaceStart = name.indexOf(" ");
+// let positionOfSpaceEnd = name.lastIndexOf(" ");
+
+// let first = name.substring(0, positionOfSpaceStart);
+// let middle = name.substring(positionOfSpaceStart + 1, positionOfSpaceEnd);
+// let last = name.substring(positionOfSpaceEnd + 1);
+
+// console.log(firstName);
+// console.log(middleName);
+// console.log(lastName);
+
+let message = `Your first name ${first} and your last name is ${last}.`;
+
+console.log(message);
