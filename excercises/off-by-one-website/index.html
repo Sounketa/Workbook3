@@ -22,6 +22,8 @@
         function displayDate() {
             let messageParagraph = document.getElementById("messageParagraph")
             messageParagraph.innerText = "display"
+            let d = new Date(dateInput.value)
+            messageParagraph.innerText = d.toString();
         } 
 
         window.onload = init;
